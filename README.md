@@ -1,4 +1,5 @@
-# privateGPT
+# personalGPT
+This is orignally inspired by [privateGPT](https://github.com/imartinez/privateGPT)
 Ask questions to your documents without an internet connection, using the power of LLMs. 100% private, no data leaves your execution environment at any point. You can ingest documents and ask questions without an internet connection!
 
 Built with [LangChain](https://github.com/hwchase17/langchain), [GPT4All](https://github.com/nomic-ai/gpt4all), [LlamaCpp](https://github.com/ggerganov/llama.cpp), [Chroma](https://www.trychroma.com/) and [SentenceTransformers](https://www.sbert.net/).
@@ -28,7 +29,8 @@ TARGET_SOURCE_CHUNKS: The amount of chunks (sources) that will be used to answer
 Note: because of the way `langchain` loads the `SentenceTransformers` embeddings, the first time you run the script it will require internet connection to download the embeddings model itself.
 
 ## Test dataset
-This repo uses a [state of the union transcript](https://github.com/imartinez/privateGPT/blob/main/source_documents/state_of_the_union.txt) as an example.
+This repo uses a [state of the union transcript](https://github.com/imartinez/
+GPT/blob/main/source_documents/state_of_the_union.txt) as an example.
 
 ## Instructions for ingesting your own dataset
 
